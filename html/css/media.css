@@ -1,0 +1,120 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.timer {
+		left: 37%;
+	}
+}
+
+@media only screen and (max-width : 850px) {
+	.timer {
+		left: 35%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.timer {
+		left: 33%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.timer {
+		left: 28%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.input_text {
+		width: 200px;
+	}
+
+	.timer {
+		left: 20%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.input_text {
+		width: 150px;
+	}
+
+	.timer {
+		left: 5%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.sea {
+		min-height: 349px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.ship {
+		margin-top: -430px;
+	}
+
+	.sea {
+		min-height: 405px;
+	}
+
+	.timer {
+		left: 39%;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1500px) {
+	.timer {
+		left: 41%;
+	}
+}
+
+@media only screen and (min-width : 1700px) {
+	.timer {
+		left: 43%;
+	}
+}
+
+@media only screen and (min-width : 1900px) {
+	.timer {
+		left: 43.5%;
+	}
+}
+
+ /*my media*/
+
+@media only screen and (max-width : 790px) {
+
+}
+
+ /*
+ @media (min-height: 720px) and (min-width : 1400px) {
+ 	
+}
+*/

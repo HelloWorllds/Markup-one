@@ -1,0 +1,179 @@
+@import "bourbon/bourbon"
+
+$text-color: #6f9bbd
+$dark-color: #000
+$blue-color: #b9d6ef
+$dark-blue-color: #266b97
+$green-color: #67bc5c
+$red-color: #9B1818
+
+body
+	font-family: "RobotoRegular", sans-serif
+	color: $text-color
+	font-weight: normal
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden
+
+h1
+	color: #fff
+	font-size: 72px
+	line-height: 72px
+	font-weight: bold
+	font-family: "CleanvertisingLight", sans-serif
+	margin: 0
+
+section, footer
+	padding: 58px 0 68px	
+	h2
+		color: $blue-color
+		font-size: 50px
+		line-height: 56px
+		margin-bottom: 50px
+		font-family: "CleanvertisingLight", sans-serif
+		text-align: center
+		margin-top: 0
+		font-weight: normal
+
+p strong
+	font-family: "RobotoBold", sans-serif
+	font-weight: normal
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+	outline:none;
+	box-shadow: $red-color 0 0 4px 2px
+	border-radius: 3px
+	border-color: $red-color
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+header
+	min-height: 640px
+	background-color: $blue-color
+	color: #fff
+	text-align: center
+	h1		
+		text-transform: uppercase
+		text-shadow: 4px 3px 3px #9ab2c7
+		margin-top: -50px
+	p
+		color: $text-color
+
+.clouds
+	background-image: url(../img/clouds.svg)
+	background-position: top center
+	background-repeat: no-repeat;
+	min-height: 200px
+
+.button
+	color: #fff
+	border: none
+	border-radius: 4px
+	cursor: pointer
+	display: inline-block
+	height: 36px
+	padding: 12px 11px 12px 11px
+	text-transform: uppercase
+	text-align: center
+	font-family: "RobotoBold", sans-serif;
+	font-size: 14px;
+	+linear-gradient(#fbc842, #f8a426)
+	text-decoration: none
+	line-height: 14px
+
+a.button
+	color: #fff;
+	text-decoration: none
+
+.input_text
+	display: inline-block
+	height: 36px
+	width: 240px
+	border: #d9d9d9 2px solid
+	box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.15) inset	
+	text-indent: 10px
+	color: #333
+	margin-right: 20px
+	line-height: 36px
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 12px;
+	&:focus
+		outline: none;
+		box-shadow: #67bc5c 0 0 4px 2px;
+		border-radius: 4px;
+		border-color: #67bc5c;
+
+.iceberg
+	margin-top: 35px
+	background-image: url(../img/iceberg.png)
+	background-position: top center
+	background-repeat: no-repeat;
+	height: 490px
+	position: relative
+	z-index: 1
+
+.water
+	background-color: #ddecfa 
+	min-height: 7px
+	margin-top: -310px
+
+.dark_water
+	background-color: #327dad 
+	min-height: 12px
+
+.sea
+	background-color: $dark-blue-color 
+	background-size: cover
+	min-height: 340px
+
+.timer
+	position: absolute
+	left: 37%
+	top: 51%
+	color: $text-color
+	float: none
+	.t_label
+		font-size: 25px
+		text-transform: uppercase
+		font-weight: bold
+		margin-top: -15px
+		margin-left: -5px
+		color: #fff
+	.days
+		display: inline-block
+		width: 70px
+		height: 70px
+		border-radius: 50%
+		background-color: $blue-color
+		font-size: 24px
+		line-height: 70px
+		float: none		
+	.hours
+		display: inline-block
+		width: 70px
+		height: 70px
+		border-radius: 50%
+		background-color: $blue-color
+		font-size: 24px
+		line-height: 70px
+		float: none
+		margin-left: 40px
+	.minutes
+		display: inline-block
+		width: 70px
+		height: 70px
+		border-radius: 50%
+		background-color: $blue-color		
+		font-size: 24px
+		line-height: 70px
+		float: none
+		margin-left: 40px
